@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Console Color | HiCoders</title>
+  </head>
+  <body>
+    <h1>Open Console</h1>
+    <pre>
+<code><span class="comment">// Shortcuts to open devTool Console.</span>
+
+<span class="comment"><b>Windows:</b></span> Ctrl + shift + j
+<span class="comment"><b>Mac:</b></span> Command + Option + j
+</code></pre>
+    <h3>Code:</h3>
+    <pre>
+<code>
+<span class="comment">// console.log("%c <- Important", "Any css property");</span>
+        
+console.log(<span class="string">"%cWarning!"</span>, <span class="css">"color:yellow;font-size: 30px;"</span>);
+
+console.log(
+  <span class="string">"%c Do not copy paste any code. ",</span>
+  <span class="css">"color:white;font-size: 30px;background: red;"</span>
+);
+
+console.log(
+  <span class="string">"%cXSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy."</span>,
+  <span class="css">"color: red;font-size: 14px"</span>
+);
+
+console.log(
+  <span class="string">"%chttps://en.wikipedia.org/wiki/Cross-site_scripting"</span>,
+  <span class="css">"font-size: 16px;"</span>
+);
+
+</code></pre>
+    <script src="./main.js"></script>
+  </body>
+</html>

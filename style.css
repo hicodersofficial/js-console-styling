@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #111827;
+}
+
+body {
+  /* margin: 0; */
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  background-color: #212329;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+pre {
+  background: #111827;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  color: #ffae00;
+  white-space: pre-wrap;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+code {
+  font-family: "IBM Plex Mono", "Fira Code", "Courier New", Courier, monospace;
+}
+code span.comment {
+  color: #6d7381;
+  font-family: "IBM Plex Mono", "Fira Code", "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+.css {
+  color: aquamarine;
+}
+
+.string {
+  color: #f6c177;
+}
+
+@media (max-width: 700px) {
+  pre {
+    width: unset !important;
+  }
+}
